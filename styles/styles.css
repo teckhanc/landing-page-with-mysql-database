@@ -1,37 +1,63 @@
 body {
     font-family: 'Roboto', sans-serif;
-    text-shadow: 0.05rem 0.1rem rgba(0,0,0,0.5);
-    text-align: center;
-    background-image: url(https://stillmed.olympics.com/media/Images/OlympicOrg/News/2019/12/11/2019-12-11-mountain-day-featured-01.jpg?interpolation=lanczos-none&resize=3840:1600);
-    max-width: 100%;
-    height: auto;
-    font-weight: 100;
-    padding: 7% 7% 0% 7%;
+    background-color: #222b13;
+    padding: 1% 7% 0% 7%;
 }
 
-h1 {
-    margin-bottom: 0;
-    color: #ffa500;
-    font-size: 400px;
-    line-height: 400px;
+h1, h2, p {
+    text-align: center;
+    color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.brand {
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+hr {
+  border: 1px solid white;
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.landing-h1 {
+    text-shadow: 0.05rem 0.1rem rgba(0,0,0,0.5);
+    font-size: 100px;
+    line-height: 100px;
     font-weight: bold;
 }
 
-p {
+.landing-h2 {
     color: white;
-    font-size: 60px;
-    line-height: 80px;
-    font-weight: 80;
+}
+
+.landing-p {
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.form-section {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .form {
-    line-height: 1.5;
+    line-height: 1.5rem;
     border: none;
-    width: 700px;
     background: transparent;
     color: white;
-    font-size: 2.9em;
-    border-bottom: 3px solid #ebebeb;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
 }
 
 input[type=text]:focus {
@@ -39,10 +65,10 @@ input[type=text]:focus {
 }
 
 button {
-    line-height: 2.0;
+    line-height: 1.5rem;
     border: none;
-    border: 3x solid white;
-    font-size: 1.9em;
+    border: 3px solid white;
+    font-size: 1.5rem;
     color: rgb(66,69,86);
     padding: 5px 30px;
     background: rgba(255,255,255,1.0);
@@ -51,6 +77,15 @@ button {
 
 button:hover {
     opacity: 1;
+}
+
+#footer {
+  text-align: center;
+}
+
+.footer-icon {
+  color: white !important;
+  margin: 1%;
 }
 
 ::-webkit-input-placeholder {/* Chrome/Opera/Safari */color: rgba(255,255,255,0.8)};

@@ -33,8 +33,9 @@ app.post("/register", function(req, res) {
     };
     connection.query('insert into users set?', person, function(error, result) {
         if (error) throw error;
-        res.send("Thanks for joining bye!");
-//        res.redirect("/");
+        res.render("registered");
+        // res.send("Thanks for joining bye!");
+        // res.redirect("/");
     });
 });
 

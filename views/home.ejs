@@ -1,16 +1,45 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-<link rel = "stylesheet" href = "styles.css">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "styles.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <body>
+      <a class="brand" href="">LANDING PAGE</a>
+      <hr>
+      <img src="https://stillmed.olympics.com/media/Images/OlympicOrg/News/2019/12/11/2019-12-11-mountain-day-featured-01.jpg?interpolation=lanczos-none&resize=3840:1600" alt="">
+      <div>
+          <h1 class="landing-h1">Under Construction</h1>
+      </div>
+      <div>
+          <h2 class="landing-h2">We're Nearly There</h2>
+      </div>
+      <div>
+          <p class="landing-p1">Something huge is coming your way! We’re putting the finishing touches to our brand new site. We’re dying to tell you what it is, but you’re just going to have to wait. In the meantime.</p>
 
-<body>
-    <h1>JOIN US</h1>
+          <P class="landing-p2">Enter your email to join <strong><%=count%></strong> others on our waitlist.</P>
+      </div>
+      <div class="form-section">
+        <form method="POST" action ="/register">
+            <input type="text" name="email" class="form" placeholder="Enter Your Email">
+            <button>Join Now</button>
+        </form>
+      </div>
 
-    <P>Enter your email to join <strong><%=count%></strong> others on our waitlist.</P>
+      <footer id="footer">
+        <div class="icon-section">
+          <a class="footer-icon" href="www.facebook.com"><i class="fab fa-facebook-f footer-icon"></i></a>
+          <a class="footer-icon" href="www.twitter.com"><i class="fab fa-twitter footer-icon"></i></a>
+          <a class="footer-icon" href="www.instagram.com"><i class="fab fa-instagram footer-icon"></i></a>
+          <a class="footer-icon" href="www.google.com"><i class="far fa-envelope-open footer-icon"></i></a>
+          <p>© Copyright 2021 Landing Page</p>
+        </div>
+      </footer>
 
-    <form method="POST" action ="/register">
-        <input type="text" name="email" class="form" placeholder="Enter Your Email">
-        <button>Join Now</button>
-    </form>
-
-</body>
+  </body>
+</html>
