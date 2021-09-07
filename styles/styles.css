@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0.05rem 0.1rem rgba(0,0,0,0.5);
+    text-align: center;
+    background-image: url(https://stillmed.olympics.com/media/Images/OlympicOrg/News/2019/12/11/2019-12-11-mountain-day-featured-01.jpg?interpolation=lanczos-none&resize=3840:1600);
+    max-width: 100%;
+    height: auto;
+    font-weight: 100;
+    padding: 7% 7% 0% 7%;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: #ffa500;
+    font-size: 400px;
+    line-height: 400px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 80;
+}
+
+.form {
+    line-height: 1.5;
+    border: none;
+    width: 700px;
+    background: transparent;
+    color: white;
+    font-size: 2.9em;
+    border-bottom: 3px solid #ebebeb;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+button {
+    line-height: 2.0;
+    border: none;
+    border: 3x solid white;
+    font-size: 1.9em;
+    color: rgb(66,69,86);
+    padding: 5px 30px;
+    background: rgba(255,255,255,1.0);
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+::-webkit-input-placeholder {/* Chrome/Opera/Safari */color: rgba(255,255,255,0.8)};
